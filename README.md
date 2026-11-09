@@ -1,4 +1,12 @@
 
+> **📌 当前发布说明（2026-11-10）**
+> 本仓库是 `<username>.github.io` 用户站点仓库，因此访问地址为 **https://jellyliu97.github.io/**（无项目路径）。
+> **实际发布的静态主页在 `docs/` 目录**：`index.html`、`stylesheet.css`、`images/`、`sitemap.xml`、`robots.txt`、`.nojekyll`。
+> 根目录这套 Jekyll/AcademicPages 文件是早期从模板复制的旧内容，已不再使用，但**未删除**（保留历史）。
+> GitHub Pages 设置：`Settings → Pages → Deploy from a branch → main / docs`。修改主页请改 `docs/index.html`，
+> 或同步维护源文件仓库 <https://github.com/Jellyliu97/academic-homepage>。
+> 规范网址（canonical）、Open Graph、JSON-LD、sitemap 均已指向根域名。
+
 <h1 align="center">
 AcadHomepage
 </h1>
