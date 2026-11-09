@@ -6,9 +6,11 @@
 > （否则根目录的 `_config.yml` 会生成别人的 AcademicPages 页面并覆盖主页）。
 > `docs/` 中保存一份完全相同的副本，可随时把发布源切换为 `main / docs` 而不影响显示。
 > 根目录那套 Jekyll/AcademicPages 文件是早期从模板复制的旧内容，已不再使用，但**未删除**（保留历史）。
-> `homepage/index.html` 是旧地址 `/homepage/` 的跳转页，指向根域名。
+> `cv/index.html` 是 CV 占位页，旧的 `/homepage/` 地址不再维护。
 > 修改主页请使用源文件仓库 <https://github.com/Jellyliu97/academic-homepage> 的
-> `sync-to-root.sh`（会同时写根目录与 `docs/`）。
+> `deploy.sh`（一键同步并推送两个仓库），或直接在**本仓库根目录**改 `index.html` 后 push。
+> ⚠️ **本仓库必须保持 public**：GitHub Free 套餐下改成 private 会让 Pages 下线、主页 404；
+>    即使有 Pro，Pages 网页也仍对全网公开，私有化并不能隐藏网页。
 > 规范网址（canonical）、Open Graph、JSON-LD、sitemap 均已指向根域名。
 
 <h1 align="center">
