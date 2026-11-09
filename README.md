@@ -1,10 +1,14 @@
 
 > **📌 当前发布说明（2026-11-10）**
 > 本仓库是 `<username>.github.io` 用户站点仓库，因此访问地址为 **https://jellyliu97.github.io/**（无项目路径）。
-> **实际发布的静态主页在 `docs/` 目录**：`index.html`、`stylesheet.css`、`images/`、`sitemap.xml`、`robots.txt`、`.nojekyll`。
-> 根目录这套 Jekyll/AcademicPages 文件是早期从模板复制的旧内容，已不再使用，但**未删除**（保留历史）。
-> GitHub Pages 设置：`Settings → Pages → Deploy from a branch → main / docs`。修改主页请改 `docs/index.html`，
-> 或同步维护源文件仓库 <https://github.com/Jellyliu97/academic-homepage>。
+> GitHub 在首次推送时**自动启用了 Pages**，发布源为 `main / (root)`，无需在 Settings 里手动开启。
+> 根目录的 `index.html` + `.nojekyll` 就是线上主页；`.nojekyll` 用于禁用旧模板的 Jekyll 构建
+> （否则根目录的 `_config.yml` 会生成别人的 AcademicPages 页面并覆盖主页）。
+> `docs/` 中保存一份完全相同的副本，可随时把发布源切换为 `main / docs` 而不影响显示。
+> 根目录那套 Jekyll/AcademicPages 文件是早期从模板复制的旧内容，已不再使用，但**未删除**（保留历史）。
+> `homepage/index.html` 是旧地址 `/homepage/` 的跳转页，指向根域名。
+> 修改主页请使用源文件仓库 <https://github.com/Jellyliu97/academic-homepage> 的
+> `sync-to-root.sh`（会同时写根目录与 `docs/`）。
 > 规范网址（canonical）、Open Graph、JSON-LD、sitemap 均已指向根域名。
 
 <h1 align="center">
